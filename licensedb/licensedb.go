@@ -1,11 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package licensedb
 
 import (
 	"errors"
 	paths "path"
 
-	"gopkg.in/src-d/go-license-detector.v2/licensedb/filer"
-	"gopkg.in/src-d/go-license-detector.v2/licensedb/internal"
+	"github.com/snk.fork.go-license-detector.v2/licensedb/filer"
+	"github.com/snk.fork.go-license-detector.v2/licensedb/internal"
 )
 
 var (

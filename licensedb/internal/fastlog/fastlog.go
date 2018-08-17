@@ -1,6 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package fastlog
 
-import "math"
+import (
+	"math"
+)
 
 // The following two functions were copied from fastapprox (BSD license).
 // They do not calculate the precise value - and we do not need it.

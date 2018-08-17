@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package licensedb
 
 import (
@@ -6,8 +11,8 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/snk.fork.go-license-detector.v2/licensedb/filer"
 	"github.com/stretchr/testify/assert"
-	"gopkg.in/src-d/go-license-detector.v2/licensedb/filer"
 )
 
 func TestDataset(t *testing.T) {

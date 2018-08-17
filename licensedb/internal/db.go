@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package internal
 
 import (
@@ -16,12 +21,11 @@ import (
 
 	"github.com/ekzhu/minhash-lsh"
 	"github.com/sergi/go-diff/diffmatchpatch"
-
-	"gopkg.in/src-d/go-license-detector.v2/licensedb/filer"
-	"gopkg.in/src-d/go-license-detector.v2/licensedb/internal/assets"
-	"gopkg.in/src-d/go-license-detector.v2/licensedb/internal/fastlog"
-	"gopkg.in/src-d/go-license-detector.v2/licensedb/internal/normalize"
-	"gopkg.in/src-d/go-license-detector.v2/licensedb/internal/wmh"
+	"github.com/snk.fork.go-license-detector.v2/licensedb/filer"
+	"github.com/snk.fork.go-license-detector.v2/licensedb/internal/assets"
+	"github.com/snk.fork.go-license-detector.v2/licensedb/internal/fastlog"
+	"github.com/snk.fork.go-license-detector.v2/licensedb/internal/normalize"
+	"github.com/snk.fork.go-license-detector.v2/licensedb/internal/wmh"
 )
 
 var (

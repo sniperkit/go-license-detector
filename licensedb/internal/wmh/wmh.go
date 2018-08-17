@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package wmh
 
 import (
@@ -8,9 +13,9 @@ import (
 	"reflect"
 	"unsafe"
 
+	"github.com/snk.fork.go-license-detector.v2/licensedb/internal/fastlog"
 	"golang.org/x/exp/rand"
 	"gonum.org/v1/gonum/stat/distuv"
-	"gopkg.in/src-d/go-license-detector.v2/licensedb/internal/fastlog"
 )
 
 const maxUint16 = 65535

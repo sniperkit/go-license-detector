@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // license-detector prints the most probable licenses for a repository
 // given either its path in the local file system or a URL pointing to
 // the repository.
@@ -13,9 +18,9 @@ import (
 	"sort"
 	"sync"
 
+	"github.com/snk.fork.go-license-detector.v2/licensedb"
+	"github.com/snk.fork.go-license-detector.v2/licensedb/filer"
 	"github.com/spf13/pflag"
-	"gopkg.in/src-d/go-license-detector.v2/licensedb"
-	"gopkg.in/src-d/go-license-detector.v2/licensedb/filer"
 )
 
 func main() {
